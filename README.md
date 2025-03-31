@@ -11,7 +11,7 @@ Inspired by **Protocol Buffers (gRPC)** and **Thrift**, TypeWeld goes beyond by 
 
 ---
 
-## 🚀 Why TypeWeld?
+## Why TypeWeld?
 
 - **Define Once, Use Everywhere**: Define your types and services in `.twld` files and generate language-specific code.
 - **Type-Safe Communication**: Prevent bugs by maintaining strict type safety across different environments.
@@ -21,25 +21,4 @@ Inspired by **Protocol Buffers (gRPC)** and **Thrift**, TypeWeld goes beyond by 
 
 ---
 
-## 📚 How It Works
-
-### 1. **Define Types and Services**
-Create a `.twld` file with your type definitions and services.
-
-```plaintext
-// example.twld
-package mypackage;
-
-message Person {
-  string name = 1;
-  int age = 2;
-}
-
-message Greeting {
-  string text = 1;
-  Person sender = 2;
-}
-
-service Greeter {
-  rpc SayHello(Greeting) returns (Greeting);
-}
+## How It Works
